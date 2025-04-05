@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1743823083427,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-BCJU4H5F.js",
+        "/manifest.webmanifest",
+        "/polyfills-FFHMD2TL.js",
+        "/styles-5INURTSO.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icons/icon-128x128.png",
+        "/assets/icons/icons/icon-144x144.png",
+        "/assets/icons/icons/icon-152x152.png",
+        "/assets/icons/icons/icon-192x192.png",
+        "/assets/icons/icons/icon-384x384.png",
+        "/assets/icons/icons/icon-512x512.png",
+        "/assets/icons/icons/icon-72x72.png",
+        "/assets/icons/icons/icon-96x96.png",
+        "/assets/images/carro.jpeg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/icons/icon-128x128.png": "c3845fc383f5ba876534fc0890e359e26b3d0e65",
+    "/assets/icons/icons/icon-144x144.png": "293fd491eaec889b24e1e678bca1552688bd46f1",
+    "/assets/icons/icons/icon-152x152.png": "8da5be5ada8793dca8eb5f63fa7384574b7b344b",
+    "/assets/icons/icons/icon-192x192.png": "fd9172b46e3dbea9c1a41af064acd42cddfd131f",
+    "/assets/icons/icons/icon-384x384.png": "a208a7045e79c9da4aefa36788fa3434bc58e7c9",
+    "/assets/icons/icons/icon-512x512.png": "e77f402352ee4c3e965c47f5d0472144b326ad48",
+    "/assets/icons/icons/icon-72x72.png": "39cdb4388e32154a49df7a725717ce8d3844d95c",
+    "/assets/icons/icons/icon-96x96.png": "5f229201981f1f3a3499d3e0d05b7b2f90418130",
+    "/assets/images/carro.jpeg": "1b7baaf6523803e1da3e244af724b829094c2c46",
+    "/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/index.html": "faba4828f2338b19868bbefc97805e0a5e78e7b7",
+    "/main-BCJU4H5F.js": "ebebb8f2e784938ff273aa80764cc6ab736adc46",
+    "/manifest.webmanifest": "ba39ec86131042dadc1297e47546337f58726311",
+    "/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
